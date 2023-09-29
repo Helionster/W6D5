@@ -19,10 +19,4 @@ class Cat < ApplicationRecord
     def age
         time_ago_in_words(birth_date.to_time)
     end
-
-
-
-
-
-    
 end
