@@ -17,6 +17,12 @@ class Cat < ApplicationRecord
     end
 
     def age
-        Date.today - birth_date
+        time_ago_in_words(birth_date.to_time)
     end
+
+
+
+
+
+    
 end
